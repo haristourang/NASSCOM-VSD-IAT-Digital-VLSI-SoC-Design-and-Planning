@@ -100,6 +100,10 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 ### Assignment 2
 
+## Day 3: Design library cell using Magic Layout and ngspice characterization
+
+### Assignment 3
+
 Characterization of cell:
 Find 4 values:
 (a)	Rise transition: Time taken to transit from 20% to 80% of maximum signal value, VDD
