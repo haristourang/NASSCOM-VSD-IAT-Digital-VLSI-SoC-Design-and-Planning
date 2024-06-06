@@ -76,6 +76,10 @@ run_synthesis
 
 ### Assignment 1
 
+Number of cells: 14876
+Number of D flip-flops: 1613 
+D flip-flops ratio: ~10.8%. 
+D flip-flops are minority that is 10.8% of the total cells present in the design.
 
 ## Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
