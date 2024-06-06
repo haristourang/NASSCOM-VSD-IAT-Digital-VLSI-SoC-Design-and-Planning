@@ -110,6 +110,8 @@ magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs
 
 In DEF (Design Exchange Format) file, information about the die area is specified as (0 0) to (660685 671405). 1 micron equals 1000 database units. Dividing by 1000, determines the chip dimensions in micrometers. Width of chip is 660.685 micrometer and height is 671.405 micrometer.
 
+<img width="323" alt="width_height" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/e7d26deb-e0d1-4bca-9b71-e599cd50e85c">
+
 ## Day 3: Design library cell using Magic Layout and ngspice characterization
 
 ### Assignment 3
