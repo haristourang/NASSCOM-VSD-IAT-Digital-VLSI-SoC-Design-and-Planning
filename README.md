@@ -81,6 +81,9 @@ Number of D flip-flops: 1613.
 D flip-flops ratio: ~10.8 %.
 D flip-flops are minority that is 10.8 % of the total cells present in the design.
 
+<img width="333" alt="no of cells" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/063e056a-5760-4145-a04e-0fbd0ff7e95e">
+<img width="512" alt="dfxtp_2" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/d99e0aa9-5ec3-4cc4-9fbb-fca5afc00fcc">
+
 ## Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
 In floorplanning, the positioning of the chip's main functional blocks is decided. It has a major effect on the chip's manufacturability, power consumption, and performance. The floorplanning is decided by the following parameters: utilization factor, aspect ratio, de-coupling capacitor, and power planning.
