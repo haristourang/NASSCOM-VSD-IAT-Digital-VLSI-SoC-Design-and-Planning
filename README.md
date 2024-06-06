@@ -1,4 +1,4 @@
-f# NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning
+# NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning
 This is the repository including the simple example of a Digital VLSI SoC Design and Planning workshop conducted by NASSCOM. The open source tool OpenLane was used to performed flow. Skywater130A tech file was used for the design.
 
 OpenLANE  is an open-source, full-featured physical design flow tool for VLSI (Very Large Scale Integration). It is intended to help with every step of the integrated circuit (IC) design process, from register-transfer level (RTL) to general layout specifications (GDSII), which are needed to manufacture the chip. OpenLANE offers a complete and configurable design flow by integrating a number of open-source tools and components. 
