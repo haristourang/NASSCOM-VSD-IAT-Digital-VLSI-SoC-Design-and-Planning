@@ -83,10 +83,20 @@ D flip-flops are minority that is 10.8 % of the total cells present in the desig
 
 ## Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
+In floorplanning, the positioning of the chip's main functional blocks is decided. It has a major effect on the chip's manufacturability, power consumption, and performance. The floorplanning is decided by the following parameters: utilization factor, aspect ratio, de-coupling capacitor, and power planning.
 
+Step to run Floorplan Using Openlane –
 
+• Set default core utilization ratio = 65% and the aspect ratio = 1.
+• After completing synthesis, the design is ready for floorplan. The following command is used to generate the PDN: run_floorplan
+• Using magic tool, the layout of floorplan is generated  using the command:
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
 
+Step to run Placement Using Openlane –
 
+• Run the following command for placement : run_placement
+• For placement layout, the following command is used in the magic tool:
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 
 ### Assignment 2
 
