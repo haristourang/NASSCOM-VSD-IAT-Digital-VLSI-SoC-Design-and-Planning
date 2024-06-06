@@ -106,7 +106,8 @@ In DEF (Design Exchange Format) file, information about the die area is specifie
 
 ### Assignment 3
 
-Characterization of cell
+Characterization of cell-
+
 Find 4 values
 
 (a)	Rise transition: Time taken to transit from 20% to 80% of maximum signal value, VDD.
