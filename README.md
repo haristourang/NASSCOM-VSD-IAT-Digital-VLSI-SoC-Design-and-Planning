@@ -1,4 +1,4 @@
-# NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning
+f# NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning
 This is the repository including the simple example of a Digital VLSI SoC Design and Planning workshop conducted by NASSCOM. The open source tool OpenLane was used to performed flow. Skywater130A tech file was used for the design.
 
 OpenLANE  is an open-source, full-featured physical design flow tool for VLSI (Very Large Scale Integration). It is intended to help with every step of the integrated circuit (IC) design process, from register-transfer level (RTL) to general layout specifications (GDSII), which are needed to manufacture the chip. OpenLANE offers a complete and configurable design flow by integrating a number of open-source tools and components. 
@@ -62,16 +62,16 @@ Firstly, an environment is set for the design to be synthesized utilizing the Op
 Changing the directory to openlane:
 cd /home/Desktop/work/tools/openlane_working_dir/openlane
 
-Running the flow.tcl in the interactive mode-
+Running the flow.tcl in the interactive mode:
  ./flow.tcl script -interactive
 
-Loading the package openlane 0.9-
+Loading the package openlane 0.9:
 package require openlane 0.9
 
-Preparing the design files (run)-
+Preparing the design files (run):
 prep -design picorv32a
 
-Carrying out the synthesis using the command-
+Carrying out the synthesis using the command:
 run_synthesis
 
 ### Assignment 1
