@@ -74,7 +74,12 @@ prep -design picorv32a
 Carrying out the synthesis using the command-
 run_synthesis
 
-## Assignment 1
+### Assignment 1
+
+
+## Day 2: Good floorplan vs bad floorplan and introduction to library cells
+
+
 
 
 
