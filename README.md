@@ -104,6 +104,8 @@ Step to run Placement Using Openlane –
 • For placement layout, the following command is used in the magic tool:
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def
 
+<img width="692" alt="placement" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/3f0b2eda-1e2b-49dd-b4af-810f114a6d80">
+
 ### Assignment 2
 
 In DEF (Design Exchange Format) file, information about the die area is specified as (0 0) to (660685 671405). 1 micron equals 1000 database units. Dividing by 1000, determines the chip dimensions in micrometers. Width of chip is 660.685 micrometer and height is 671.405 micrometer.
