@@ -95,6 +95,9 @@ Step to run Floorplan Using Openlane –
 • Using magic tool, the layout of floorplan is generated  using the command:
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def
 
+<img width="550" alt="topview floorplan" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/c51bbaad-5e7a-44a5-893a-7361b3003566">
+<img width="737" alt="floorplan" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/b3545d61-e333-466d-8d9d-ce4dc8234809">
+
 Step to run Placement Using Openlane –
 
 • Run the following command for placement : run_placement
