@@ -54,25 +54,43 @@ Purpose: Verify that the design meets all the necessary requirements and is read
 
 ## Day 1: Inception of open-source EDA and OpenLANE and Sky130 PDK
 
-First day session is on the synthesis process of a ‘picorv32‘  design employing the OpenLane flow. The netlist as well as essential reports are generated utilizing the folllowing synthesis process.
+The introductory workshop on Day 1 provided a comprehensive overview of the RTL to GDSII flow, elucidating the seamless transformation of Verilog code into physical design. Participants gained insights into the fundamental principles underlying the RISC-V processor architecture, and how these concepts translate into layout design. Crucially, the session delved into the intricate relationship between software applications and hardware, elucidating the pivotal role of compilers in bridging these domains. Additionally, attendees were introduced to the concept of Process Design Kits (PDKs), further enhancing their understanding of the integrated circuit design process.
+OPENLANE in Terminal 
+During this session, we'll dive into the synthesis process for the specific design, picorv32, utilizing the OpenLane flow. Our objective is to generate the netlist and other essential reports following the synthesis step.
+•	Before proceeding, it's imperative to ensure the smooth operation of the virtual machine environment.
+•	Once everything is confirmed to be functioning optimally, we'll observe a terminal interface within the virtual machine environment, resembling the following:
 
-The commands below are used in to execute the synthesis and create a netlist.
-Firstly, an environment is set for the design to be synthesized utilizing the Openlane. The following commands are used to create the environment:
 
-Changing the directory to openlane:
-cd /home/Desktop/work/tools/openlane_working_dir/openlane
 
-Running the flow.tcl in the interactive mode:
- ./flow.tcl script -interactive
+	
+•	Before moving forward, let's navigate to the directory path: Desktop/work/tools/openlane_working_dir/openlane. This directory is essential for executing the synthesis steps effectively.
+•	After that we will type docker command. why we are using docker whats the purpose of this?
+Docker is like a magic box that bundles up all the stuff needed to run a program, like OpenLane for chip design. It makes sure everything works the same no matter where you run it. So, instead of setting up everything from scratch, you just use this box, called a container, and everything runs smoothly, saving you time and headaches.
+•	When we run docker command the terminal will look like the below image-
 
-Loading the package openlane 0.9:
-package require openlane 0.9
 
-Preparing the design files (run):
-prep -design picorv32a
 
-Carrying out the synthesis using the command:
-run_synthesis
+•	Next, step is to run the /flow.tcl script -interactive command. It is widely used in EDA tools to automate tasks , such as synthesis,placement,routing,timing analysis.
+•	-interactive – Instead of running the script non-stop it allow the user to enter additional commands or modify the execution flow integrity.
+•	Hence after using this command we get the terminal like below image-
+
+
+
+
+•	Before diving into the synthesis step, we need to execute these two commands:
+1.)	package require openlane 0.9: This command ensures that we have the necessary OpenLane tools and libraries installed, specifically version 0.9, which is compatible with our setup.
+2.)	prep -design picorv32a: This command prepares the environment for the specific design, picorv32a, ensuring that all required files, configurations, and settings are in place before proceeding further.
+Executing these commands ensures that we're set up properly and ready to move forward with the synthesis process.
+
+
+
+•	Once these two commands are executed, you'll notice that a directory named "runs" is created. This directory serves as a structured repository where the results of each intermediate step are stored systematically. This organization allows for easy access and management of the synthesis process outputs, facilitating further analysis and debugging as needed.
+
+
+
+	
+•	We are now ready to execute the synthesis and produce a netlist from the design using the command run_synthesis.
+
 
 ### Assignment 1
 
