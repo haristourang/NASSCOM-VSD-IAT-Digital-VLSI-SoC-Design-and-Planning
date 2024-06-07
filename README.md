@@ -199,13 +199,27 @@ Find 4 values
 (a)	Rise transition: Time taken to transit from 20% to 80% of maximum signal value, VDD.
 Rise transition: 2.24696 ns – 2.18265 ns = 0.06431 ns.
 
+![Rise transition_20pc_VDD](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/af095560-f16e-42f3-a4f7-d7160806e6c7)
+
+![Rise transition_80pc_VDD](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/9a1939fd-5fa7-4ff0-b3ba-dbeeef70f06a)
+
 (b)	Fall transition: Time taken for output to fall from 80% to 20% of the signal VDD.
 Fall transition: 4.09551 ns – 4.05316 ns = 0.04235 ns.
+
+![Fall transition_20pc_VDD](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/dd2db665-6b65-4737-a654-bbe9d3496a20)
+
+![Fall transition_80pc_VDD](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/54886168-3770-4ca5-9a25-1b4009840f9e)
 
 (c)	Cell rise delay: Rise delay through the cell based on the input slew and output load (time period between 50% rise in output and 50% rise in input).
 Cell Rise Delay: 2.21155 ns – 2.15009 ns = 0.06146 ns.
 
+![Cell Rise Delay](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/32f94a67-a831-4c12-9e96-44311e7cbcbe)
+
 (d)	Cell fall delay: Difference in time period when the output has fallen to its 50% and when the input has raised towards 50%.
 Cell Fall Delay: 4.7835 ns – 4.05 ns = 0.02835 ns.
+
+![Cell Fall Delay](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/26116f8a-9798-4985-8d9e-6aebd73bb465)
+
+![Cell Fall Delay2](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/0d0ee45e-9323-4ab4-9d2f-6750896edff4)
 
 
