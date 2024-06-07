@@ -117,6 +117,54 @@ In DEF (Design Exchange Format) file, information about the die area is specifie
 
 ## Day 3: Design library cell using Magic Layout and ngspice characterization
 
+Clone the working directory in the github repo using : git clone https://github.com/nickson-jose/vsdstdcelldesign.git 
+
+View CMOS inverter layout using: magic -T sky130A.tech sky130_inv.mag & 
+
+Extracting the SPICE netlist
+
+Commands to be utilized in tkcon window of magic for spice extraction of custom inverter layout are as follows 
+
+#Check current directory:
+pwd
+
+#Extraction command to extract to .ext format:
+extract all
+
+#Before converting ext to spice this command enable the parasitic extraction also:
+ext2spice cthresh 0 rthresh 0
+
+#Converting to ext to spice:
+ext2spice
+
+#Inside sky130_inv.ext,the extracted netlist information can be seen
+
+
+#Modified spice netlist
+
+.option scale=0.01u
+.include ./libs/pshort.lib
+.include ./libs/nshort.lib
+//.subckt sky130_inv A Y VPWR VGND
+M1001 Y A VGND VGND nshort_model.0 ad=1.44n pd=0.152m as=1.37n ps=0.148m w=35 l=23
+M1000 Y A VPWR VPWR pshort_model.0 ad=1.44n pd=0.152m as=1.52n ps=0.156m w=37 l=23
+VDD VPWR 0 3.3V
+VSS VGND 0 0V
+C6 Y 0 2fF
+Va A VGND PULSE(0V 3.3V 0 0.1ns 0.1ns 2ns 4ns)
+C0 A VPWR 0.0774fF
+C1 Y VPWR 0.117fF
+C2 A Y 0.07f4fF
+C3 Y VGND 0.279fF
+C4 A VGND 0.45f
+C5 VPWR VGND 0.781f
+//.ends
+.tran 1n 20n
+.control
+run
+.endc
+.end`
+
 ### Assignment 3
 
 Characterization of cell-
