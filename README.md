@@ -205,6 +205,7 @@ run
 
 .end`
 
+<img width="368" alt="Spice code" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/0481eb96-9286-4e8a-b034-7fbd2ebafab8">
 
 
 ![Layout](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/7f633c88-1a68-4430-9769-94dc8594d97b)
