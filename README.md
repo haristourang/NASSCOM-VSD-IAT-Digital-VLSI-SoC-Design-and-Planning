@@ -186,6 +186,10 @@ run
 
 .end`
 
+![Layout](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/7f633c88-1a68-4430-9769-94dc8594d97b)
+
+![sky130A_inv_Output_vs_time](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/569620a9-fb86-4041-b204-19c13bdc4a82)
+
 ### Assignment 3
 
 Characterization of cell-
