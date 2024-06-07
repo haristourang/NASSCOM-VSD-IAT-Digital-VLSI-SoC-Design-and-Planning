@@ -167,7 +167,7 @@ ext2spice
 
 .include ./libs/nshort.lib
 
-//.subckt sky130_inv A Y VPWR VGND
+*.subckt sky130_inv A Y VPWR VGND
 
 M1001 Y A VGND VGND nshort_model.0 ad=1.44n pd=0.152m as=1.37n ps=0.148m w=35 l=23
 
@@ -193,7 +193,7 @@ C4 A VGND 0.45f
 
 C5 VPWR VGND 0.781f
 
-//.ends
+*.ends
 
 .tran 1n 20n
 
