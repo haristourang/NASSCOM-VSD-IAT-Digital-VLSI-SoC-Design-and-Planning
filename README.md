@@ -245,10 +245,30 @@ Cell Fall Delay: 4.7835 ns – 4.05 ns = 0.02835 ns.
  
  Here, timing modeling utilizing the delay tables and the process of transforming grid information to track information are emphasized.
 
- Placement of the custom inverter in to the picorv32a
+Placement of the custom inverter in to the picorv32a
+
 <img width="229" alt="0" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/b82c1004-a16c-48e9-9128-33faca7484aa">
 
  Finding the custom inverter cell
+
+ We explore the steps of reducing the slack time in case of huge negative slack.
+ First change some SYNTH variable values.
+
+ set ::env(SYNTH_STRATEGY) "DELAY 3"
+ set ::env(SYNTH_SIZING) 1
+ set ::env(SYNTH_DRIVING_CELL) 1
+
+ We can check if the desired values are updated:
+ echo $::env(SYNTH_STRATEGY)
+ echo $::env(SYNTH_SIZING)
+ echo $::env(SYNTH_DRIVING_CELL)
+
+ With these new variables, we re-run the synthesis overwriting the prep picorv32
+
+ We also explore the cell replacement if there is still any large negative slack.
+ Identify the cells giving large slack and delay.
+ Then replace them with a better driving cells.
+
 <img width="451" alt="01" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/a41066c5-64b5-4089-b7f3-3865f9eb99c4">
 
 ![1syn_Harris](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/5cb32f5c-8914-45e0-8bc1-4751e4012dc3)
