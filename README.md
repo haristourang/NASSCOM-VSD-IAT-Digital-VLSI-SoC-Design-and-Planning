@@ -98,6 +98,8 @@ D flip-flops ratio: ~10.8 %.
 D flip-flops are minority that is 10.8 % of the total cells present in the design.
 
 <img width="488" alt="total cell" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/46e0d89c-ade2-46c9-ac94-b61f28f7faf0">
+
+
 <img width="434" alt="dfxtp2" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/3bbf0da0-6d32-463f-9a3b-ca4da3635643">
 
 
