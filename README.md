@@ -223,3 +223,6 @@ Cell Fall Delay: 4.7835 ns – 4.05 ns = 0.02835 ns.
 ![Cell Fall Delay2](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/0d0ee45e-9323-4ab4-9d2f-6750896edff4)
 
 
+
+
+
