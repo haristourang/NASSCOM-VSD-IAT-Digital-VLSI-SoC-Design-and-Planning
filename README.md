@@ -60,37 +60,35 @@ During this session, we'll dive into the synthesis process for the specific desi
 •	Before proceeding, it's imperative to ensure the smooth operation of the virtual machine environment.
 •	Once everything is confirmed to be functioning optimally, we'll observe a terminal interface within the virtual machine environment, resembling the following:
 
-
-
+<img width="511" alt="1" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/f662c647-2062-4957-b6ad-8814deda7eec">
 	
 •	Before moving forward, let's navigate to the directory path: Desktop/work/tools/openlane_working_dir/openlane. This directory is essential for executing the synthesis steps effectively.
 •	After that we will type docker command. why we are using docker whats the purpose of this?
 Docker is like a magic box that bundles up all the stuff needed to run a program, like OpenLane for chip design. It makes sure everything works the same no matter where you run it. So, instead of setting up everything from scratch, you just use this box, called a container, and everything runs smoothly, saving you time and headaches.
 •	When we run docker command the terminal will look like the below image-
 
-
+<img width="511" alt="2" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/896a4e0d-3a79-4b9b-935d-53218533787f">
 
 •	Next, step is to run the /flow.tcl script -interactive command. It is widely used in EDA tools to automate tasks , such as synthesis,placement,routing,timing analysis.
 •	-interactive – Instead of running the script non-stop it allow the user to enter additional commands or modify the execution flow integrity.
 •	Hence after using this command we get the terminal like below image-
 
-
-
+<img width="394" alt="3" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/07d89bf1-06ad-4655-aa40-5bf97abbec44">
 
 •	Before diving into the synthesis step, we need to execute these two commands:
 1.)	package require openlane 0.9: This command ensures that we have the necessary OpenLane tools and libraries installed, specifically version 0.9, which is compatible with our setup.
 2.)	prep -design picorv32a: This command prepares the environment for the specific design, picorv32a, ensuring that all required files, configurations, and settings are in place before proceeding further.
 Executing these commands ensures that we're set up properly and ready to move forward with the synthesis process.
 
-
+<img width="488" alt="4" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/a18d6242-38c4-40cc-9367-3733c60dd3f0">
 
 •	Once these two commands are executed, you'll notice that a directory named "runs" is created. This directory serves as a structured repository where the results of each intermediate step are stored systematically. This organization allows for easy access and management of the synthesis process outputs, facilitating further analysis and debugging as needed.
 
-
-
+<img width="488" alt="5" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/4d6e1424-416e-4395-9c6b-3140ea524aaf">
 	
 •	We are now ready to execute the synthesis and produce a netlist from the design using the command run_synthesis.
 
+<img width="488" alt="6" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/ce29397f-8fea-4bfe-bbd4-c784533dbdad">
 
 ### Assignment 1
 
