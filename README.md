@@ -97,8 +97,9 @@ Number of D flip-flops: 1613.
 D flip-flops ratio: ~10.8 %.
 D flip-flops are minority that is 10.8 % of the total cells present in the design.
 
-<img width="333" alt="no of cells" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/063e056a-5760-4145-a04e-0fbd0ff7e95e">
-<img width="512" alt="dfxtp_2" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/d99e0aa9-5ec3-4cc4-9fbb-fca5afc00fcc">
+<img width="488" alt="total cell" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/46e0d89c-ade2-46c9-ac94-b61f28f7faf0">
+<img width="434" alt="dfxtp2" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/3bbf0da0-6d32-463f-9a3b-ca4da3635643">
+
 
 ## Day 2: Good floorplan vs bad floorplan and introduction to library cells
 
