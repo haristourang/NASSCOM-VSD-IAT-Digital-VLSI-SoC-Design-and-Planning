@@ -242,10 +242,21 @@ Cell Fall Delay: 4.7835 ns – 4.05 ns = 0.02835 ns.
 ![Cell Fall Delay2](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/0d0ee45e-9323-4ab4-9d2f-6750896edff4)
 
 ## Day 4- Pre–Layout Timing Analysis and importance of good clock tree
+ 
+ Here, timing modeling utilizing the delay tables and the process of transforming grid information to track information are emphasized.
+
+ Placement of the custom inverter in to the picorv32a
+<img width="229" alt="0" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/b82c1004-a16c-48e9-9128-33faca7484aa">
+
+ Finding the custom inverter cell
+<img width="451" alt="01" src="https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/a41066c5-64b5-4089-b7f3-3865f9eb99c4">
 
 ![1syn_Harris](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/5cb32f5c-8914-45e0-8bc1-4751e4012dc3)
+
 ![2pdn](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/0d84418f-7b9f-4d57-ab8b-29aa8b896c55)
+
 ![3report-checks](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/4106b964-b5c6-4f8f-b334-070825671c67)
+
 ![4openroad](https://github.com/haristourang/NASSCOM-VSD-IAT-Digital-VLSI-SoC-Design-and-Planning/assets/34880534/6764d4c4-7885-4a9c-9d5b-f64bdbba6e23)
 
 
